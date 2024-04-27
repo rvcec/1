@@ -1,0 +1,359 @@
+                                            POKEMON KERNEL
+                                            by machinegun2187
+
+CHARACTERS:
+	PROTAG  - (PROTAGONIST, ONE OF THE DRAGON PSEUDO-LEGENDARIES PKMN - DRATINI/BAGON/GIBLE/DEINO/GOOMY/JANGMO-O)
+	BRUCE   - (LAIRON)
+	VANESSA - (FLAAFFY)
+	WALTER  - (POLIWHIRL)
+	DOROTHY - (MEDICHAM)
+	KELVIN  - (ABSOL)
+	TEAM THESIS:
+		KELVIN
+		CELCIUS
+		FARENHEIT
+		RANKINE
+
+
+XYORAS SUBCONTINENT:
+	TOWNS:
+		(CHEESE, ROCKS, ALLOYS, CURRENCIES, MS WORD FONTS)
+		FROMAGE TOWN
+		SVISS TOWN
+		PANIER TOWN
+		PARMESANE TOWN
+		MANCHAEGO TOWN 
+		MOZZAREL TOWN 
+		ROCFORTE TOWN  
+		CHEDDR TOWN    
+		BRII TOWN      
+		TALEGIO TOWN   
+		CAMEMBET TOWN  
+		GONGORZOLA TOWN
+
+	KINGDOMS:
+		KINGDOM            | BOSS'S LAIR      | PLACEHOLDER| BOSS'S PKMN                               | ITEM DROPPED    | COMMONPKMNTYPES
+		-------------------+------------------+------------+-------------------------------------------+-----------------+----------------
+		ERUPTION VALLEY    | MT. BOOM         | ARCHIBALD  | ENTEI,SUICUNE,RAIKOU, & <HO-OH>           | GOLDEN SUNDIAL  | FIR,GRO,POI
+		MINERAL DOMAIN     | SHRINE OF PANGEA | HORACE     | REGIROCK,REGICE,REGISTEEL & <REGIGIGAS>   | ASTRAL ORE      | ROC,STL,FIG
+		PEN ISLAND         | ABYSSAL FORTRESS | MARY       | ARTICUNO,ZAPDOS,MOLTRES & <LUGIA>         | SILVER JEWEL    | WAT,ICE,DAR
+		FIELDS OF ASPHODEL | CASTLE OF DREAMS | CALLISTA   | MESPRIT,AZELF,UXIE & <CRESELLIA>          | EMPTY HOURGLASS | PSY,GHO,FAI
+		TRIPEAK PENINSULA  | HEAVEN'S TOWER   | LYSANDROTH | THUNDEROUS,TORNADUS,LANDORUS & <RAYQUAZA> | FLORAL DUST     | FLY,BUG,ELE
+		SCALAR PLATEAU     | OPUS PALACE      | GWENDOLYN  | ZECROM,RESHIRAM,KYUREM & <ORIGINALDRAGON> | ANCIENT DNA     | DRA,GRA,NOR
+	
+	LANDMARKS:
+		BRONZE CAVE
+		EUREKA FALLS
+		FORBIDDEN ISLAND
+		EMERALD FOREST
+		MT. BOOM
+		XYORAS STEEL FACTORY
+		KARATE DOJO
+		UNIVERSITY OF XYORAS
+		IVORY ISLAND
+		HOLLOW TUNNEL
+		SMUSUM RIVER
+		SNOWF LAKE
+		CON CAVE
+		LAKE AQUAREGIA
+		 TEMPLE
+		 OASIS
+		 WELL
+		 CHASM
+		 ABODE
+		 BRIDGE
+		 DUNGEON
+		 COAST
+		 BEACH
+		 CLIFF
+		 CANAL
+		 TRENCH
+		 SUMMIT
+		 BASIN
+		 DIVIDE
+		 GORGE
+		 SLOPE
+		 PASS
+		 CAPE 
+		 GULF
+		 BAY
+		 SWAMP
+		 CRATER
+		 EPICENTER
+		 CANYON
+		
+	
+	ROUTE NAMES (INCOMPLETE):
+		ROUTE
+		PATH
+		ROAD
+		PASSAGE
+		WAY
+
+
+REST OF THE BOSSES:
+	PENULTIMATE BOSSES:
+		BRUCE	- HEATRAN, LATIAS & LATIOS
+		VANESSA	- ZYGARDE, XERNEAS & YVELTAL
+		DOROTHY	- MEWTWO, SOLGALEO & LUNALA
+		KELVIN	- COBALLION, TERRAKION & VIRIZION
+		
+	FINAL BOSS: AGIN - ARCEUS, DIALGA, PALKIA & GIRATINA
+
+	UNUSED LEGENDARIES: [ZACIAN, ZAMAZENTA, ETERNATUS, KUBFU, URSHIFU, REGIELEKI, REGIDRAGO, GLASTRIER, SPECTRIER, CALYREX]
+		
+	MYTHICALS: MEW, CELEBI, JIRACHI, -DEOXYS, MANAPHY, -PHIONE, -DARKRAI, SHAYMIN, ARCEUS, VICTINI, -KELDEO, MELOETTA, -GENESECT, -DIANCEE, HOOPA, -VOLCANION,   MAGEARNA, MARSHADOW, ZERAORA, MELTAN, MELMETAL, ZARUDE
+
+
+HM MOVES:
+	MOVE NAME	| USER		| EVOLUTION		| HELD KERNEL
+											  
+	<LAVASURF>	| PROTAG	| 1ST EVO		| SUNDIAL
+	ROCKSMASH	| BRUCE		| LAIRON		| ORE
+	SURF		| WALTER	| POLIWHIRL		| JEWEL
+	STRENGTH	| PROTAG	| 2ND EVO		| SUNDIAL
+	FLASH		| VANESSA	| FLAAFFY		| HOURGLASS
+	TELEPORT	| DOROTHY	| MEDICHAM		| BRACELET
+	ROCK CLIMB	| BRUCE		| AGGRON		| ORE
+	<DIG OUT>	| VANESSA	| AMPHAROS		| HOURGLASS
+	CUT			| KELVIN	| ABSOL			| DUST
+	DIVE		| WALTER	| POLITOAD		| JEWEL
+	WATERFALL	| PROTAG	| 3RD EVO		| SUNDIAL
+
+
+OTHER OUT-OF-BATTLE MOVES & OBTAINED LEGENDARY:
+		HEADBUTT (CLIMB TREE)					- TAPU BULU
+		HARSH SUNLIGHT (EVAPORATE LAKE)			- GROUDON
+		SANDSTORM (SETTLE A QUICKSAND)			- TAPU KOKO
+		RAIN (FILL LAKE)						- KYOGRE 
+		DEFOG (CLEAR FOG IN AREA)				- TAPU LELE
+		HAIL (FREEZE LAKE)						- TAPU FINI
+		SPECIAL TELEPORT (NEXT TO A WORMHOLE)	- NECROZMA
+
+
+ADDITIONAL FEATURES:
+	- ALL PKMN UNTIL 8TH GEN
+	- NEW OBSTACLE - "CRACKS"
+	- NEW HM MOVE LAVASURF
+	- ALL LEGENDARIES CAN BE OBTAINED IN THE POST GAME
+	- COUPLE OF SIDEQUESTS AND SPECIAL SIDEQUEST ITEMS
+	- BERRIES ARE FOUND IN THE WILD, AND CAN BE CRUSHED/JUICED TO GIVE THEIR RESPECTIVE MEDICINES
+	- GRASS TYPE BUFFED:
+		- FLYING & POISON TYPES DONT RESIST GRASS MOVES
+	- STEEL TYPE NERFED:
+		- STEEL WONT RESIST PSYCHIC, GHOST OR FAIRY MOVES, BUT WILL RESIST DARK
+		- ELECTRIC MOVES SUPER-EFFECTIVE AGAINST STEEL TYPES
+		- GROUND RESISTS STEEL MOVES
+	- IN A PKMN ENCOUNTER, PARTY MEMBER DIRECTLY ENTERS FIGHT
+	- PLAYER'S CHOICE B/W IN-GAME CLOCK OR SYSTEM CLOCK
+	- CURRENCY USED IS "QUID" INSTEAD OF POKEDOLLARS
+		- USUALLY IN THE FORM OF COINS
+		- COPPER: 1, SILVER: 5, GOLD: 10, PLATINUM: 20
+		- COIN SACK (25) ---> COIN BAG (100) ---> COIN CHEST (200)
+	- SAVEPOINTS AND NO MANUAL SAVING
+	- MEGA RUNE, WHICH CAN AUTOMATICALLY MEGA EVOLVE PKMN
+	- DEXTER'S JOURNAL REPLACES POKEDEX
+	- RESPECTIVE TCG SYMBOLS APPEAR RIGHT BEFORE A BOSS FIGHT STARTS
+	- MYSTIC GRAINS
+
+	
+KERNELS & THEIR USES IN OVERWORLD:
+	VOID BRACELET   - TELEPORTS YOU TO NEAREST SAVEPOINT; ENTER WORMHOLES
+	GOLDEN SUNDIAL  - TRIGGERS HARSH SUNLIGHT;            EMPTIES LAKES
+	ASTRAL ORE      - TRIGGERS SANDSTORM;				  STOPS A QUICKSAND
+	SILVER JEWEL    - TRIGGERS RAIN;					  FILLS LAKES
+	EMPTY HOURGLASS - TRIGGERS FOG;						  UNFOGS PLACES
+	FLORAL DUST     - TRIGGERS HAIL;					  FREEZES LAKES
+	ANCIENT DNA     - 
+	MAGIC FLUTE     - 
+
+
+OTHER STUFF:
+	MENUS:
+		PARTY:
+			[UPTO 6 PKMN]
+		ITEMS:
+			KEY ITEMS
+			KERNELS
+			BERRIES
+			BATTLE ITEMS
+			MEDICINE
+			OTHER
+		[PLAYER]:
+			MONEY, KERNELS, SIDEQUEST PROGRESS
+		SETTINGS:
+			MUSIC, SOUND, CONTROLS, TEXT SPEED, TEXT FRAMES, BATTLE SCENE, BATTLE STYLE, CLOCK, CREDITS
+		SAVE
+		EXIT GAME:
+			EXIT TO MAIN MENU
+			EXIT TO DESKTOP
+			LOAD SAVE FILE
+	
+	
+	TO-DO LIST:
+		GRAPHICS:
+			MENU INTERFACES
+			INTRO CUTSCENE
+			INTRO SPLASH SCREEN
+			BASIC CHANGES IN ANIMATIONS
+			OUTRO ANIMATION
+		MUSIC:
+			INTRO
+			6 TOWN
+			3 LAIR
+			ENCOUNTER
+			TRAINER BATTLE
+			BOSS BATTLE
+			FINAL BOSS
+			OUTRO
+		OUTDOOR MAPS:
+			PKMN ENCOUNTERS
+			ITEM LOCATIONS
+				BERRIES
+				OTH ITEMS
+				QUID
+			NPC'S & DIALOGUE
+			SIDEQUEST AREAS
+		INDOOR MAPS:
+			INDOOR NPC'S
+			LAIR PUZZLES
+		OTHER:
+			NEW ITEMS
+			SIDEQUESTS
+			FOLLOWING PKMN
+			
+		
+	SOME COOL NAMES TO USE: HEDRON, FRUSTUM, CONSOLAS, SPECTRAL, SYNTAX, PREDICATE, ALIAS, TRANSCIENT, LYRIC, HELION, UMBRA, CATALYST, SCALENE, CREST, TROUGH, AXIS, FILAMENT, FRAGMENT, SEGMENT, GRADIAN, METEOR(ITE), GIBBOUS, SOLSTICE, LATERAL, SHELL, APPENDIX, ASCENT, AMALGAM, ELEMENT, VOODOO, JARGON, ZALGO, LAPSE, BLOOM/BLOSSOM, ALLOY, ARSON, DEBCA, UNIT, GNOMON, RAFLESSIA, EPITOME
+	
+
+	SPECIAL NPC'S:
+		- HEALER CHANSEY/BLISSEY/AUDINO
+		- SALESMAN
+		- ITEM TRADER
+		- SHADY DEALER
+		- BERRY MANIAC
+		- MOVE TUTORS
+		- STONESMITH
+		- GAME DESIGNERS
+		- EVO STONE COLLECTOR
+		- RARE CANDY MAKER
+		- TM DESIGNER
+
+
+	SIDEQUESTS:
+		CASTFORME
+		MEGA RUNE
+		JOURNAL COMPLETION
+		EVOLVE HAPPINY
+
+
+	BERRIES TO ITEMS:
+	
+		BERRY JUICER:
+			ASPEAR	- ICE HEAL
+			CHERI	- PRZ HEAL
+			CHESTO	- AWAKENING
+			PECHA	- ANTIDOTE
+			RAWST	- BURN HEAL
+			LUM		- FULL HEAL
+			ORAN	- POTION
+			SITRUS	- HYPERPOTION
+			PERSIM	- <ANTIVOL>
+					- REVIVE
+			
+		BERRY CRUSHER:
+			2x ORAN   - SUPER POTION
+			2x SITRUS - MAX POTION
+			2x LUM    - FULL RESTORE
+					  - MAX REVIVE
+			
+			2x LEICHI - X-ATT
+			2x GANLON - X-DEF
+			2x PETAYA - X-SP ATT
+			2x APICOT - X-SP DEF
+			2x LANSAT - <X-CRIT>
+			2x SALAC  - X-SPEED
+			2x STARF  - <X-RANDOM>
+			2x MICLE  - <X-ACC>
+			2x CUSTAP - <X-EVADE>
+			
+			LEICHI & GANLON - <Y-PHYSICAL>
+			PETAYA & APICOT - <Y-SPECIAL>
+			SALAC & CUSTAP  - <Y-MOBILITY>
+			LANSAT & MICLE  - <Y-DIRECT>
+			
+			2x OCCA   - FIRE PLATE
+			2x PASSHO - WATER PLATE
+			2x WACAN  - ELECTRIC PLATE
+			2x RINDO  - GRASS PLATE
+			2x YACHE  - ICE PLATE
+			2x CHOPLE - FIGHTING PLATE
+			2x KEBIA  - POISON PLATE
+			2x SHUCA  - GROUND PLATE
+			2x COBA   - FLYING PLATE
+			2x PAYAPA - PSYCHIC PLATE
+			2x TANGA  - BUG PLATE
+			2x CHARTI - ROCK PLATE
+			2x KASIB  - GHOST PLATE
+			2x HABAN  - DRAGON PLATE
+			2x COLBUR - DARK PLATE
+			2x BABIRI - STEEL PLATE
+			2x CHILAN - NORMAL PLATE
+			2x ROSELI - FAIRY PLATE
+
+
+	SHARDS TO STONES:
+		RED		- FIRE
+		BLUE	- WATER
+		YELLOW	- THUNDER
+		GREEN	- LEAF
+		ORANGE	- SUN 
+		VIOLET	- DUSK
+		BLACK	- MOON
+		WHITE	- ICE
+		GREY	- DAWN
+		CLEAR	- SHINY
+
+
+	STORY ROUTES (NOT CONFIRMED YET):
+		TRUE ROUTE
+		UNTRUE ROUTE:
+			BRUCE/VANESSA - DOESN'T GET PICKED BY PROTAGONIST
+			VANESSA/BRUCE - YOU LOSE TO CELCIUS
+			DOROTHY       - ACCEPTS DEATH
+			KELVIN        - ISNT FORGIVEN
+		FALSE ROUTE:
+			ALL OF THE ABOVE HAPPEN
+
+
+	ENDINGS (NOT CONFIRMED YET):
+		POLITOAD ENDING (GOOD)
+		POLYWRATH ENDING (MEDIOCRE)
+		POLIWHIRL ENDING (BAD)
+
+
+	LIST OF HIDDEN INSTRUMENTS FOR POSTGAME (NOT CONFIRMED YET):
+		SWIMSUIT (to SURF in calm waters) ----> SCUBA SUIT (DIVE)
+		STONE PICKAXE (ICE SMASH) ----> IRON PICKAXE (ROCK SMASH)
+		AXE (CUT)
+		SPADE (to DIG out cracks) ----> SHOVEL (DIG out of a cave)
+		HOVERCRAFT (FLY)
+		STEROIDS (STRENGTH)
+		FLASH LIGHT (FLASH)
+		SURFBOARD (SURF in harsh waters) ----> OBSIDIAN RAFT (LAVA SURF)
+		
+		* "---->" means that that particular item would be upgraded later on in the story
+		
+
+PROLOGUE: 
+the game takes place in the pre-modern era where kings reigned (unlike classical pkmn games where it is set in the modern time), and many items in the classical games arent available in mine cuz they weren't invented yet (like pokeballs). it starts off with king Agin of Xyoras region, who travels around the world to find 8 "kernels" (certain objects of immense power), to conduct a particular ritual. according to the terms of the ritual, each member of one's family must hold one kernel in their hand. Agin realised there were only 7 members in his family, so he only required one more member to agree to the ritual's terms (8 kernels, one for each family member). so he conceives a child with a commoner, unbenownst to many ppl. thus he secretly slips a kernel into his newlyborn child's hand and hence the ritual starts. but for some reason the ritual went awfully wrong, unleashing the kernels' energy, and causing all people in the region to turn into pokemon. not only that, but the king mysteriously dies, and his 6 royal family members who participated in the ritual trasform into legendary pokemon (basically super-strong pkmn). these 6 guys become the main bosses of the game, and Agin himself becomes the final boss. this "concieved child" however transforms into a non-legendary pokemon though for some reason, unlike his relatives. this kid is our protagonist
+
+
+BRIEF SUMMARY OF STORY (NEEDS REVIEWING):
+	- protag starts his adventure
+	- makes a friend who is added to the party
+	- old lady tells us that protag, as the illegitimate royal family member, must retrieve back all kernels from the now-legendary pkmn, and undo the effects of the catastrophe by redoing that ritual
+	- so we go on a quest to defeat all the bosses, gather more friends/party members and have multiple encounters "team thesis", who are a group of scientists, who are trying to develop a medicinal cure to revert the citizens of Xyoras back to their human forms
+	- midway through the story we make a time travel machine and go back into the past to kill king agin just in time before his ritual starts, to hence prevent the catastrophe from ever happening. but due to the laws of time travel that "changing the past cannot change the future", meaning the catastrophe is inevitable, our team unintentionally happens to _cause_  the catastrophe (basically they poison agin's tea right before the ritual starts, causing him to die of poisoning right when the ritual is happening, making it a failure. ik this is super complicated)
+	- we fight the 6th boss and get the final kernel. all that is left to do is use the royal family's blood (protag's blood) and do the ritual. it doesn't seem to work tho. hence we find out that protag isnt actually a royal family member
+	- our team decides that it is best to resurrect Agin and use his blood to do the needful. agin wakes up, agrees to cooperate with us for the ritual, but he betrays us, manipulates the ritual to his favour, causing him to become arceus (the god of all pokemon). we fight him, and defeat him. before his death he tells us that the reason the first ritual failed was because he had accidentally given the 8th kernel to a different kid instead of his actual blood-related child. now his actual child named "walt" happens to be one among our party members who followed with us through most of the story. saying so, agin dies, and walt does the required ritual, restoring xyoras to its former order.
