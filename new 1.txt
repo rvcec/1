@@ -1,0 +1,239 @@
+int trigPin = 9;
+int echoPin = 8;
+int led Pin 3;
+int distance threshold = 40;
+float duration_us, distance_cm;
+void setup() {
+Serial.begin(9600);
+pinMode (trigPin, OUTPUT);
+pinMode (echoPin, INPUT); pinMode(ledPin, OUTPUT);
+}
+void loop() {
+digitalWrite(trigPin, HIGH);
+delayMicroseconds (10);
+digitalWrite(trigPin, LOW);
+duration_us = pulseIn (echoPin, HIGH);
+distance_cm = 0.017 duration_us;
+if (distance_cm < distance_threshold)
+digitalWrite(ledPin, HIGH); else digitalWrite(led_Pin, LOW);
+Serial.print("distance: ");
+Serial.print (distance_cm);
+Serial.println(" cm");
+delay(500);
+}
+
+
+
+#include"DHT.h"
+#include<LiquidCrystal_I2C.h>
+LiquidCrystal I2C lcd (0x27,16,2);
+#define DHTPIN 2
+#define DHTTYPE DHT11 DHT dht (DHTPIN, DHTTYPE);
+void setup() {
+}
+void loop() {
+float humi-dht.readHumidity(0);
+float tempC=dht.readTemperature();
+Serial.print("humidity: ");
+Serial.print(humi);
+Serial.print("%");
+Serial.print("
+1 ");
+Serial.print("temperature");
+Serial.print(tempC);
+Serial.print("
+lcd.init();
+lcd.backlight();
+lcd.setCursor(0,0);
+lcd.print("humi: ");
+lcd.print(humi);
+lcd.print("%");
+Serial.begin(9600);
+dht.begin();
+lcd.setCursor(0,1);
+lcd.print("Temp: ");
+lcd.print(tempC);
+lcd.print(" .C ");
+delay (500);
+.C
+");
+
+
+
+
+int Buzzer =13;
+int FlamePin = 2;
+int Flame = HIGH;
+void setup() {
+pinMode (Buzzer, OUTPUT); pinMode (FlamePin, INPUT); Serial.begin(9600); }
+void loop() {
+Flame = digitalRead(FlamePin);
+if (Flame == HIGH)
+{
+Serial.println("HIGH FLAME"); digitalWrite (Buzzer, HIGH);
+}
+else
+{
+Serial.println("NO FLAME"); digitalWrite (Buzzer, LOW);
+}
+}
+
+
+
+int FloatSensor-2;
+int led=13;
+int buttonState=1;
+void setup() {
+Serial.begin(9600);
+pinMode (FloatSensor, INPUT_PULLUP);
+pinMode (led,OUTPUT);
+}
+void loop() {
+buttonState=digitalRead (FloatSensor);
+if (buttonState==HIGH) {
+digitalWrite(led, LOW);
+Serial.println("WATERLEVEL HIGH");
+}
+else{
+digitalWrite(led, HIGH);
+Serial.println("WATERLEVEL-LOW");
+}
+delay(1000);
+}
+
+
+
+const int TOUCH SENSOR PIN = 2; // the Arduino's input pin that connects to the sensor's SIGNAL pin
+const int LED PIN = 3;
+void setup() {
+Serial.begin(9600);
+pinMode (TOUCH_SENSOR_PIN, INPUT); // initialize the Arduino's pin as an input
+pinMode(LED_PIN, OUTPUT);
+}
+void loop() {
+// put your main code here, to run repeatedly:
+int touchState = digitalRead(TOUCH_SENSOR_PIN);
+if (touchState == HIGH)
+{
+Serial.println(" The Sensor being touched"); digitalWrite(LED_PIN, HIGH); delay(1000);
+}
+else
+{
+if (touchState == LOW)
+{
+Serial.println(" The Sensor is untouched"); digitalWrite(LED_PIN, LOW); delay(1000);}}}
+
+
+int sensor_pin = A0; // Soil Sensor input at Analog PIN AO
+int output_value;
+void setup() {
+Serial.begin(9600);
+Serial.println("Reading From the Sensor ..."); delay(2000);
+}
+void loop() {
+output_value= analogRead(sensor_pin);
+output_value map (output_value, 500,10,0,100);
+Serial.print("Mositure: ");
+Serial.print(output_value);
+Serial.println("%");
+delay(1000);
+}
+
+
+
+
+int led_pin =13;
+int sensor_pin =8;
+void setup() {
+pinMode(led_pin, OUTPUT);
+pinMode (sensor_pin, INPUT);
+}
+void loop() {
+if(digitalRead(sensor_pin) == HIGH) {
+digitalWrite(led_pin, HIGH);
+} else {
+digitalWrite(led_pin, LOW);
+delay(1000);
+}}
+
+
+
+const int ledPin = 2;
+const int 1drPin = A0;
+void setup()
+{
+Serial.begin(9600);
+pinMode (ledPin, OUTPUT);
+pinMode (ldrPin, INPUT);
+}
+void loop()
+{
+int ldrStatus = analogRead(ldrPin);
+if (ldrStatus <= 200)
+{
+digitalWrite(ledPin, LOW);
+Serial.print("Its BRIGHT, Turn OFF the LED: ");
+Serial.println(ldrStatus);
+}
+else
+{
+digitalWrite(ledPin, HIGH);
+Serial.print("Its DARK, Turn ON the LED: ");
+Serial.println(ldrStatus);
+}
+
+
+
+int redLed=12;
+int greenLed=11;
+int buzzer=10;
+int smokeA0-A5;
+int sensorThres=150; // Your threshold value
+void setup() {
+// put your setup code here, to run once:
+pinMode (redLed, OUTPUT);
+pinMode (greenLed, OUTPUT);
+pinMode (buzzer, OUTPUT);
+pinMode (smokeAO, INPUT);
+Serial.begin(9600);
+}
+void loop() {
+// put your main code here, to run repeatedly
+int analogSensor-analogRead (smokeA0);
+Serial.print("Pin A0");
+Serial.println (analogSensor);
+if (analogSensor>sensorThres) // Checks if it
+{
+digitalWrite(redLed, HIGH);
+digitalWrite (greenLed, LOW);
+tone (buzzer, 1000,200);
+}
+else
+{
+digitalWrite(redLed, LOW);
+digitalWrite (greenLed, HIGH);
+noTone (buzzer);
+}
+delay(100);
+}
+
+
+
+#include <Servo.h>
+#include <Servo.h>
+Servo tap_servo;
+int sensor pin = 4;
+int tap_servo_pin =5;
+int val;
+void setup() {
+pinMode (sensor_pin, INPUT);
+tap_servo.attach(tap_servo_pin);
+}
+void loop() {
+val = digitalRead(sensor_pin);
+if (val==0) {
+tap_servo.write(0);
+}
+if (val==1)
+{ tap_servo.write(180); //
+}}
